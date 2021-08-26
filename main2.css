@@ -76,13 +76,13 @@ display: flex;
     margin-left: 25px;
     margin-right: 25px;
     background-image: url("Foto2/img2.png");
-    background-position: 0 320px;
+    background-position: bottom;
     position: relative;
 }
 .image2:hover {
-    padding-bottom: 10px;
+  
     background:linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0,0,0,0) 20%), url('Foto2/img2.png');
-    background-position: 0 320px;
+    background-position:bottom;
 }
     .image3{
     width: 371px;
