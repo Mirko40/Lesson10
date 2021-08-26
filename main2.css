@@ -64,9 +64,9 @@ display: flex;
    
     
 }
-.image1:hover, .image2:hover, .image3:hover{
+.image1:hover {
    
-    box-shadow:inset 0px -40px rgba(22, 20, 20, 0.4);
+    background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0, 0.5)), url('Foto2/img.png');
     
 }
 .image2{
@@ -79,7 +79,12 @@ display: flex;
     background-position: 0 320px;
     position: relative;
 }
-.image3{
+.image2:hover {
+    padding-bottom: 10px;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.5),rgba(0,0,0,0) 20%), url('Foto2/img2.png');
+    background-position: 0 320px;
+}
+    .image3{
     width: 371px;
     height: 311px;
     /* border: 2px solid red; */
@@ -87,6 +92,13 @@ display: flex;
     background-position: center;
     position: relative;
 }
+.image3:hover {
+   
+    background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgb(0, 0, 0, 0.5)), url('Foto2/img3.png');
+   
+    background-position:center;
+}
+
 .data, .data2, .data3{
     width: 61px;
     height: 61px;
